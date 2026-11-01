@@ -1,0 +1,9 @@
+! Samsung TV ads and tracking: conservative list for AdGuard Home / NextDNS
+! Source: Serif Home, https://github.com/ngerver1/SamsungTV
+! ||domain^ also blocks every subdomain.
+! Deliberately leaves app store, sign-in and firmware-update domains alone.
+||samsungads.com^
+||samsungadhub.com^
+||samsungacr.com^
+||prderrordumphsm.samsungcloudsolution.com^
+||gamespromotion.samsungcloudsolution.com^

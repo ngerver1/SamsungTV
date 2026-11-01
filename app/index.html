@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serif Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stage theme-graphite" id="stage" tabindex="0" aria-label="TV screen. Use the arrow keys, Enter for OK and Escape for Back.">
+  <img class="photo" id="photo" alt="">
+  <div class="backdrop" aria-hidden="true"></div>
+  <main class="home" id="home">
+    <header class="clock">
+      <div class="time" id="time"></div>
+      <div class="date" id="date"></div>
+    </header>
+    <nav class="utils" id="utils" aria-label="Home controls"></nav>
+    <section class="dock" id="dock" aria-label="Apps on Home">
+      <div class="track" id="track"></div>
+    </section>
+  </main>
+  <div class="layer" id="layer" role="dialog" aria-modal="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+<script src="catalog.js"></script>
+<script src="device.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

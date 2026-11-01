@@ -1,0 +1,25 @@
+# Samsung TV ads and tracking: conservative list for Pi-hole (one domain per line)
+# Source: Serif Home, https://github.com/ngerver1/SamsungTV
+# Blocks ad delivery, viewing-data collection (ACR) and error-dump uploads.
+# Deliberately leaves app store, sign-in and firmware-update domains alone.
+# Domains drawn from https://github.com/Perflyst/PiHoleBlocklist (SmartTV.txt).
+
+# Ads
+samsungads.com
+ads.samsungads.com
+config.samsungads.com
+samsungadhub.com
+ad.samsungadhub.com
+rd.samsungadhub.com
+
+# Viewing information (automatic content recognition)
+samsungacr.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
+log-ingestion.samsungacr.com
+log-ingestion-eu.samsungacr.com
+
+# Diagnostic and promotion uploads
+prderrordumphsm.samsungcloudsolution.com
+gamespromotion.samsungcloudsolution.com

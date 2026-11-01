@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://serifhome.local/app" version="0.1.0" viewmodes="maximized">
+  <tizen:application id="yw2bHzEqX6.SerifHome" package="yw2bHzEqX6" required_version="6.5"/>
+  <content src="index.html"/>
+  <name>Serif Home</name>
+  <icon src="icon.png"/>
+  <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+  <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

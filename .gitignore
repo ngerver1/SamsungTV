@@ -1,0 +1,23 @@
+# Your private setup: SDK paths, signing profile, TV address, recovery notes
+/.local/
+/dist/
+/node_modules/
+/test-results/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Signing material must never be committed
+*.p12
+*.pfx
+*.pkcs12
+*.jks
+*.keystore
+*.pem
+*.key
+*.csr
+profiles.xml
+*.wgt

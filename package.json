@@ -1,0 +1,27 @@
+{
+  "name": "serif-home",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A quiet, ad-free home screen for the Samsung Serif (Tizen), adapted from CleanFrame.",
+  "scripts": {
+    "dev": "python3 scripts/preview.py",
+    "lint": "eslint app",
+    "check": "npm run lint && python3 scripts/check.py",
+    "check:browser": "node scripts/check-browser.mjs",
+    "package": "python3 scripts/package.py",
+    "tv:info": "python3 scripts/tv.py info",
+    "tv:apps": "python3 scripts/tv.py apps",
+    "tv:install": "python3 scripts/tv.py install",
+    "tv:launch": "python3 scripts/tv.py launch",
+    "tv:uninstall": "python3 scripts/tv.py uninstall",
+    "check:tools": "python3 -B scripts/test-tools.py"
+  },
+  "devDependencies": {
+    "eslint": "10.13.0",
+    "playwright": "1.64.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^22.13.0 || >=24"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "newsreader/Newsreader-Variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+    "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+  },
+  {
+    "file": "newsreader/OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt",
+    "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+  },
+  {
+    "file": "manrope/Manrope.woff2",
+    "source": "https://github.com/nthnclrk/CleanFrame/blob/58ac92a/app/assets/manrope.woff2 (The Manrope Project, OFL 1.1)",
+    "sha256": "e310b55a7fd9677f5e3555e6c6c4d064fa1f1d24393f0ddbe217cea12a8c432f"
+  },
+  {
+    "file": "manrope/OFL.txt",
+    "source": "https://github.com/nthnclrk/CleanFrame/blob/58ac92a/app/assets/manrope-OFL.txt",
+    "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+  }
+]
